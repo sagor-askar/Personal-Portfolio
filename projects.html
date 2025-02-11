@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Modern Business - Start Bootstrap Template</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Custom Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap icons-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <style>
+      .preview-icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba(0, 0, 0, 0.6);
+        color: #fff;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        transition: 0.3s;
+        cursor: pointer;
+      }
+
+      .position-relative:hover .preview-icon {
+        background: rgba(0, 0, 0, 0.8);
+        transform: translate(-50%, -50%) scale(1.1);
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      @media (max-width: 768px) {
+        .card-body {
+          padding: 0;
+        }
+
+        .row {
+          height: auto;
+        }
+
+        .col-md-6,
+        .col-md-3 {
+          width: 100% !important;
+        }
+
+        .col-md-6 {
+          padding: 20px;
+        }
+
+        .col-md-3 {
+          padding: 10px;
+        }
+
+        .preview-icon {
+          bottom: 15px;
+          right: 15px;
+        }
+
+        .clickable-image {
+          object-fit: contain;
+        }
+      }
+    </style>
+  </head>
+  <body class="d-flex flex-column h-100 bg-light">
+    <main class="flex-shrink-0">
+      <!-- Navigation-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+        <div class="container px-5">
+          <a class="navbar-brand" href="index.html"
+            ><span class="fw-bolder text-dark">Welcome!</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="resume.html">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="projects.html">Projects</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Projects Section-->
+      <section class="py-5">
+        <div class="container px-5 mb-5">
+          <div class="text-center mb-5">
+            <h1 class="display-5 fw-bolder mb-0">
+              <span class="text-gradient d-inline">Projects</span>
+            </h1>
+          </div>
+          <div class="row gx-5 justify-content-center">
+            <div class="col-md-12">
+              <!-- project 1 -->
+              <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                <div class="card-body p-0 h-100">
+                  <div
+                    class="row align-items-stretch g-2"
+                    style="height: 16rem"
+                  >
+                    <!-- Content Section -->
+                    <div class="col-md-6 p-4 d-flex flex-column">
+                      <h2 class="fw-bolder">MuktoKowlom</h2>
+                      <p>
+                        MuktoKowlom is a storytelling platform where writers can
+                        share their thoughts, and readers can explore diverse
+                        stories in both English and Bangla. It offers
+                        categorized content, fostering a creative and engaging
+                        literary community.
+                      </p>
+                      <p><b>Technology Used:</b> Laravel, Bootstrap, MySQL.</p>
+                    </div>
+
+                    <!-- Middle Image -->
+                    <div class="col-md-3 px-2 position-relative">
+                      <a
+                        href="#"
+                        data-bs-toggle="modal"
+                        data-bs-target="#imageModal"
+                        data-bs-image="assets/projects/muktokowlom-frontend.png"
+                        class="open-modal"
+                      >
+                        <img
+                          class="img-fluid w-100 clickable-image"
+                          style="
+                            border-radius: 5px;
+                            margin-top: 5px;
+                            margin-bottom: 5px;
+                            height: 95%;
+                          "
+                          src="assets/projects/muktokowlom-frontend.png"
+                          alt="Project Image"
+                        />
+                        <div class="preview-icon">
+                          <i class="fa fa-search-plus"></i>
+                        </div>
+                      </a>
+                    </div>
+
+                    <!-- Right Image -->
+                    <div class="col-md-3 px-2 position-relative">
+                      <a
+                        href="#"
+                        data-bs-toggle="modal"
+                        data-bs-target="#imageModal"
+                        data-bs-image="assets/projects/muktokowlom-backend.png"
+                        class="open-modal"
+                      >
+                        <img
+                          class="img-fluid w-100 clickable-image"
+                          style="
+                            border-radius: 5px;
+                            margin-top: 5px;
+                            margin-bottom: 5px;
+                            height: 95%;
+                          "
+                          src="assets/projects/muktokowlom-backend.png"
+                          alt="Project Image"
+                        />
+                        <div class="preview-icon">
+                          <i class="fa fa-search-plus"></i>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- project 2 -->
+              <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                <div class="card-body p-0 h-100">
+                  <div
+                    class="row align-items-stretch g-2"
+                    style="height: 16rem"
+                  >
+                    <!-- Content Section -->
+                    <div class="col-md-6 p-4 d-flex flex-column">
+                      <h2 class="fw-bolder">HRMS</h2>
+                      <p>
+                        HRM software automates employee management tasks like
+                        payroll, attendance, recruitment, and performance
+                        tracking, improving efficiency and compliance.
+                      </p>
+                      <p>
+                        <b>Technology Used:</b>PHP, Laravel, Bootstrap, MySQL.
+                      </p>
+                    </div>
+
+                    <!-- Middle Image -->
+                    <div class="col-md-3 px-2 position-relative">
+                      <a
+                        href="#"
+                        data-bs-toggle="modal"
+                        data-bs-target="#imageModal"
+                        data-bs-image="assets/projects/hrm-frontend.png"
+                        class="open-modal"
+                      >
+                        <img
+                          class="img-fluid w-100 clickable-image"
+                          style="
+                            border-radius: 5px;
+                            margin-top: 5px;
+                            margin-bottom: 5px;
+                            height: 95%;
+                          "
+                          src="assets/projects/hrm-frontend.png"
+                          alt="Project Image"
+                        />
+                        <div class="preview-icon">
+                          <i class="fa fa-search-plus"></i>
+                        </div>
+                      </a>
+                    </div>
+
+                    <!-- Right Image -->
+                    <div class="col-md-3 px-2 position-relative">
+                      <a
+                        href="#"
+                        data-bs-toggle="modal"
+                        data-bs-target="#imageModal"
+                        data-bs-image="assets/projects/hrm-backend.png"
+                        class="open-modal"
+                      >
+                        <img
+                          class="img-fluid w-100 clickable-image"
+                          style="
+                            border-radius: 5px;
+                            margin-top: 5px;
+                            margin-bottom: 5px;
+                            height: 95%;
+                          "
+                          src="assets/projects/hrm-backend.png"
+                          alt="Project Image"
+                        />
+                        <div class="preview-icon">
+                          <i class="fa fa-search-plus"></i>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- project 3 -->
+              <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                <div class="card-body p-0 h-100">
+                  <div
+                    class="row align-items-stretch g-2"
+                    style="height: 16rem"
+                  >
+                    <!-- Content Section -->
+                    <div class="col-md-6 p-4 d-flex flex-column">
+                      <h2 class="fw-bolder">Habibi Ya Habibi</h2>
+                      <p>
+                        HabibiYaHabibi is a multi-vendor eCommerce website built
+                        with Laravel and MySQL, enabling seamless buying,
+                        selling, and vendor management.
+                      </p>
+                      <p>
+                        <b>Technology Used:</b>PHP, Laravel, Bootstrap, MySQL.
+                      </p>
+                    </div>
+
+                    <!-- Middle Image -->
+                    <div class="col-md-3 px-2 position-relative">
+                      <a
+                        href="#"
+                        data-bs-toggle="modal"
+                        data-bs-target="#imageModal"
+                        data-bs-image="assets/projects/habibi-frontend.png"
+                        class="open-modal"
+                      >
+                        <img
+                          class="img-fluid w-100 clickable-image"
+                          style="
+                            border-radius: 5px;
+                            margin-top: 5px;
+                            margin-bottom: 5px;
+                            height: 95%;
+                          "
+                          src="assets/projects/habibi-frontend.png"
+                          alt="Project Image"
+                        />
+                        <div class="preview-icon">
+                          <i class="fa fa-search-plus"></i>
+                        </div>
+                      </a>
+                    </div>
+
+                    <!-- Right Image -->
+                    <div class="col-md-3 px-2 position-relative">
+                      <a
+                        href="#"
+                        data-bs-toggle="modal"
+                        data-bs-target="#imageModal"
+                        data-bs-image="assets/projects/habibi-backend.png"
+                        class="open-modal"
+                      >
+                        <img
+                          class="img-fluid w-100 clickable-image"
+                          style="
+                            border-radius: 5px;
+                            margin-top: 5px;
+                            margin-bottom: 5px;
+                            height: 95%;
+                          "
+                          src="assets/projects/habibi-backend.png"
+                          alt="Project Image"
+                        />
+                        <div class="preview-icon">
+                          <i class="fa fa-search-plus"></i>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- project 4 -->
+              <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                <div class="card-body p-0 h-100">
+                  <div
+                    class="row align-items-stretch g-2"
+                    style="height: 16rem"
+                  >
+                    <!-- Content Section -->
+                    <div class="col-md-6 p-4 d-flex flex-column">
+                      <h2 class="fw-bolder">Interior Design Website</h2>
+                      <p>
+                        An interior design website built with Laravel, JS, and
+                        MySQL, offering design inspirations, project showcases,
+                        and client interactions.
+                      </p>
+                      <p>
+                        <b>Technology Used:</b>PHP, Laravel, Bootstrap, Raw CSS,
+                        MySQL.
+                      </p>
+                    </div>
+
+                    <!-- Middle Image -->
+                    <div class="col-md-3 px-2 position-relative">
+                      <a
+                        href="#"
+                        data-bs-toggle="modal"
+                        data-bs-target="#imageModal"
+                        data-bs-image="assets/projects/polock-interior-1.JPG"
+                        class="open-modal"
+                      >
+                        <img
+                          class="img-fluid w-100 clickable-image"
+                          style="
+                            border-radius: 5px;
+                            margin-top: 5px;
+                            margin-bottom: 5px;
+                            height: 95%;
+                          "
+                          src="assets/projects/polock-interior-1.JPG"
+                          alt="Project Image"
+                        />
+                        <div class="preview-icon">
+                          <i class="fa fa-search-plus"></i>
+                        </div>
+                      </a>
+                    </div>
+
+                    <!-- Right Image -->
+                    <div class="col-md-3 px-2 position-relative">
+                      <a
+                        href="#"
+                        data-bs-toggle="modal"
+                        data-bs-target="#imageModal"
+                        data-bs-image="assets/projects/polock-interior-2.JPG"
+                        class="open-modal"
+                      >
+                        <img
+                          class="img-fluid w-100 clickable-image"
+                          style="
+                            border-radius: 5px;
+                            margin-top: 5px;
+                            margin-bottom: 5px;
+                            height: 95%;
+                          "
+                          src="assets/projects/polock-interior-2.JPG"
+                          alt="Project Image"
+                        />
+                        <div class="preview-icon">
+                          <i class="fa fa-search-plus"></i>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- project 5 -->
+              <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                <div class="card-body p-0 h-100">
+                  <div
+                    class="row align-items-stretch g-2"
+                    style="height: 16rem"
+                  >
+                    <!-- Content Section -->
+                    <div class="col-md-6 p-4 d-flex flex-column">
+                      <h2 class="fw-bolder">Bidding (Auction) Website</h2>
+                      <p>
+                        A bidding (auction) website built with Laravel, raw PHP,
+                        raw CSS, and Bootstrap, enabling real-time auctions,
+                        user bidding, and secure transactions.
+                      </p>
+                      <p>
+                        <b>Technology Used:</b>Raw PHP, Laravel, JavaScript,
+                        Bootstrap, MySQL.
+                      </p>
+                    </div>
+
+                    <!-- Middle Image -->
+                    <div class="col-md-3 px-2 position-relative">
+                      <a
+                        href="#"
+                        data-bs-toggle="modal"
+                        data-bs-target="#imageModal"
+                        data-bs-image="assets/projects/bid-frontend.png"
+                        class="open-modal"
+                      >
+                        <img
+                          class="img-fluid w-100 clickable-image"
+                          style="
+                            border-radius: 5px;
+                            margin-top: 5px;
+                            margin-bottom: 5px;
+                            height: 95%;
+                          "
+                          src="assets/projects/bid-frontend.png"
+                          alt="Project Image"
+                        />
+                        <div class="preview-icon">
+                          <i class="fa fa-search-plus"></i>
+                        </div>
+                      </a>
+                    </div>
+
+                    <!-- Right Image -->
+                    <div class="col-md-3 px-2 position-relative">
+                      <a
+                        href="#"
+                        data-bs-toggle="modal"
+                        data-bs-target="#imageModal"
+                        data-bs-image="assets/projects/bid-backend.png"
+                        class="open-modal"
+                      >
+                        <img
+                          class="img-fluid w-100 clickable-image"
+                          style="
+                            border-radius: 5px;
+                            margin-top: 5px;
+                            margin-bottom: 5px;
+                            height: 95%;
+                          "
+                          src="assets/projects/bid-backend.png"
+                          alt="Project Image"
+                        />
+                        <div class="preview-icon">
+                          <i class="fa fa-search-plus"></i>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- project 6 -->
+              <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                <div class="card-body p-0 h-100">
+                  <div
+                    class="row align-items-stretch g-2"
+                    style="height: 16rem"
+                  >
+                    <!-- Content Section -->
+                    <div class="col-md-6 p-4 d-flex flex-column">
+                      <h2 class="fw-bolder">Company Portfolio Website</h2>
+                      <p>
+                        HabibiYaHabibi is a multi-vendor eCommerce website built
+                        with Laravel and MySQL, enabling seamless buying,
+                        selling, and vendor management.
+                      </p>
+                      <p>
+                        <b>Technology Used:</b>PHP, Laravel, Bootstrap, Raw CSS,
+                        MySQL.
+                      </p>
+                    </div>
+
+                    <!-- Middle Image -->
+                    <div class="col-md-3 px-2 position-relative">
+                      <a
+                        href="#"
+                        data-bs-toggle="modal"
+                        data-bs-target="#imageModal"
+                        data-bs-image="assets/projects/ngit-1.png"
+                        class="open-modal"
+                      >
+                        <img
+                          class="img-fluid w-100 clickable-image"
+                          style="
+                            border-radius: 5px;
+                            margin-top: 5px;
+                            margin-bottom: 5px;
+                            height: 95%;
+                          "
+                          src="assets/projects/ngit-1.png"
+                          alt="Project Image"
+                        />
+                        <div class="preview-icon">
+                          <i class="fa fa-search-plus"></i>
+                        </div>
+                      </a>
+                    </div>
+
+                    <!-- Right Image -->
+                    <div class="col-md-3 px-2 position-relative">
+                      <a
+                        href="#"
+                        data-bs-toggle="modal"
+                        data-bs-target="#imageModal"
+                        data-bs-image="assets/projects/ngit-2.png"
+                        class="open-modal"
+                      >
+                        <img
+                          class="img-fluid w-100 clickable-image"
+                          style="
+                            border-radius: 5px;
+                            margin-top: 5px;
+                            margin-bottom: 5px;
+                            height: 95%;
+                          "
+                          src="assets/projects/ngit-2.png"
+                          alt="Project Image"
+                        />
+                        <div class="preview-icon">
+                          <i class="fa fa-search-plus"></i>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Image display Modal -->
+              <div
+                class="modal fade"
+                id="imageModal"
+                tabindex="-1"
+                aria-labelledby="imageModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Image Preview</h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body text-center">
+                      <img
+                        id="modalImage"
+                        class="img-fluid"
+                        src=""
+                        alt="Expanded Image"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Call to action section-->
+      <section class="py-5 bg-gradient-primary-to-secondary text-white">
+        <div class="container px-5 my-5">
+          <div class="text-center">
+            <h2 class="display-4 fw-bolder mb-4">
+              Let's build something together
+            </h2>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer-->
+    <footer class="bg-white py-4 mt-auto">
+      <div class="container px-5">
+        <div
+          class="row align-items-center justify-content-between flex-column flex-sm-row"
+        >
+          <div class="col-auto">
+            <div class="small m-0">Copyright &copy; With Blessing</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+
+    <!-- project display -->
+    <!-- Bootstrap JS (Required for modal functionality) -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll(".open-modal").forEach(function (element) {
+          element.addEventListener("click", function () {
+            var imageUrl = this.getAttribute("data-bs-image");
+            document.getElementById("modalImage").src = imageUrl;
+          });
+        });
+      });
+    </script>
+
+    <!-- Bootstrap CSS & JS (Make sure you include Bootstrap in your project) -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/YOUR_KIT_CODE.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
