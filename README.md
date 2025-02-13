@@ -16,5 +16,5 @@ This is the source code for my personal portfolio website. The portfolio showcas
 ## Contact
 For any inquiries, feel free to reach out:
 - Email: sagor.askar@gmail.com
-- LinkedIn: [[Your Profile](https://linkedin.com/in/your-profile)](https://www.linkedin.com/in/askar-ibne-saikh-sagor-bba66a1a0/) 
-- GitHub: [[Your Profile](https://github.com/your-username)](https://github.com/sagor-askar)
+- LinkedIn: (https://linkedin.com/in/your-profile)](https://www.linkedin.com/in/askar-ibne-saikh-sagor-bba66a1a0/) 
+- GitHub: (https://github.com/your-username)](https://github.com/sagor-askar)
