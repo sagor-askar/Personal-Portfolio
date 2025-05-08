@@ -22,7 +22,7 @@ Welcome to my personal portfolio website! This is a fully responsive website des
 
 ## ✍️ Author
 
-**Your Name**  
+**Md. Askar Ibne Saikh Sagor**  
 [Portfolio](https://sagor-askar.github.io/Personal-Portfolio/index.html)  
 [LinkedIn](https://www.linkedin.com/in/askar-ibne-saikh-sagor-bba66a1a0/)  
 [GitHub](https://github.com/sagor-askar)  
